@@ -1,3 +1,22 @@
 @import url(../vendor/normalize.css);
 @import url(../../fonts/inter.css);
 @import url(../root/root.css);
+
+@import url(../header/header.css);
+@import url(../header/__logo/header__logo.css);
+@import url(../header/__lang-links/header__lang-links.css);
+@import url(../header/__lang-link/header__lang-link.css);
+@import url(../header/__lang-link/__lang-link_active/header__lang-link_active.css);
+
+@import url(../lead/lead.css);
+@import url(../lead/__title/lead__title.css);
+@import url(../lead/__subtitle/lead__subtitle.css);
+@import url(../lead/__image/lead__image.css);
+@import url(../lead/__caption/lead__caption.css);
+
+@import url(../intro/intro.css);
+@import url(../intro/__title/intro__title.css);
+@import url(../intro/__text/intro__text.css);
+@import url(../intro/__list/intro__list.css);
+
+@import url(../photo-grid/photo-grid.css);
