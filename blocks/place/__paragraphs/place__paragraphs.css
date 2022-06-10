@@ -1,8 +1,3 @@
-.place__paragraph {
+.place__paragraphs {
     max-width: 484px;
-    margin-top: 48px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 1.63;
 }
