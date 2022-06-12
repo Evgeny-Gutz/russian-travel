@@ -2,6 +2,7 @@
     background-image: url(../../../images/__background.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
+    box-sizing: border-box;
     position: relative;
     display: flex;
     flex-direction: column;

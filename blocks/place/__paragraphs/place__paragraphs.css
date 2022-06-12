@@ -7,5 +7,6 @@
 @media screen and (max-width: 768px) {
     .place__paragraphs {
         row-gap: 25px;
+        padding-right: 16px;
     }
 }

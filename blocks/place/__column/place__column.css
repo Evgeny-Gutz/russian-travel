@@ -1,7 +1,0 @@
-.place__column {
-    display: flex;
-    flex-direction: column;
-    max-width: 460px;
-    min-width: 440px;
-    margin-right: calc((40 * 100%)/984);
-}
