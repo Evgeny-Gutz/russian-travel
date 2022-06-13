@@ -8,14 +8,14 @@
 
 @media screen and (max-width: 1024px) {
     .place {
-        grid-template-columns: minmax(340px, 440px) 49.18%; 
+        grid-template-columns: minmax(340px, 440px) 49.18%;
         column-gap: 32px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .place {
-        grid-template-columns: repeat(2, minmax(min-content, max-content)) ;
+        grid-template-columns: repeat(2, minmax(min-content, max-content));
         column-gap: 28px;
     }
 }
