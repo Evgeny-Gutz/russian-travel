@@ -9,10 +9,14 @@
         padding: 88px 0 24px;
     }
 }
+@media screen and (max-width: 730px) {
+    .footer {
+        flex-direction: column;
+    }
+}
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 320px) {
     .footer {
         padding: 64px 0 24px;
-        flex-direction: column;
     }
 }
