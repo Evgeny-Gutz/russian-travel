@@ -7,20 +7,41 @@
     line-height: 1.22;
     text-align: center;
     max-width: 360px;
-    margin-top: 32px;
+    position: absolute;
+    z-index: 3;
+    top: calc(52.5% + 80px);
+}
+
+@media screen and (max-width: 1024px) {
+    .cover__subtitle {
+        top: calc(37.01vw + 70px);
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .cover__subtitle {
+        top: calc(37.01vw + 90px);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover__subtitle {
+        top: calc(38.93vw + 90px);
+    }
 }
 
 @media screen and (max-width: 660px) {
     .cover__subtitle {
-        margin-top: 16px;
         max-width: 320px;
         font-size: 16px;
         line-height: 1.14;
+        top: calc(34.93vw + 120px);
     }
 }
 @media screen and (max-width: 320px) {
     .cover__subtitle {
         max-width: 256px;
         font-size: 14px;
+        top: calc(37.18vw + 66px);
     }
 }
