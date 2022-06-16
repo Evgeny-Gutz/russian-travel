@@ -4,6 +4,7 @@
     color: #ffffff;
     padding: 80px 0 0;
     box-sizing: border-box;
+    overflow: hidden;
     display: flex;
     position: relative;
     flex-direction: column;
@@ -14,8 +15,6 @@
 .cover::before {
     content: '';
     display: block;
-    width: 100%;
-    height: 100%;
     position: absolute;
     top: 0;
     left: 0;
@@ -29,32 +28,28 @@
 
 .cover:hover {
     opacity: 0.8;
+    transition: opacity 1s linear 0s;
 }
 
 @media screen and (max-width: 1024px) {
     .cover {
         padding: 70px 0 0;
-        width: 100vw;
-        margin-left: -48px;
+        margin: 0 -48px 0;
     } 
 }
 
 @media screen and (max-width: 768px) {
     .cover {
         padding: 90px 0 0;
-        margin-left: -24px;
-    } 
-}
-
-@media screen and (max-width: 450px) {
-    .cover {
-        margin-left: -20px;
+        margin: 0 -24px 0;
     } 
 }
 
 @media screen and (max-width: 320px) {
     .cover {
+        min-width: 320px;
+        min-height: 200px;
         padding: 66px 0 0;
-        margin-left: -16px;
+        margin: 0;
     } 
 }
