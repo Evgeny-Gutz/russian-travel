@@ -12,6 +12,9 @@
 
 Мой проект о путешествии по России.
 
+**Хостинг**
+
+Адрс размещенного сайта (https://evgeny-gutz.github.io/russian-travel/)
 
 **Figma**
 
